@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.conteiner{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.title-section{
+    color: red;
+font-size: 50px;
+text-align: center;
+font
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: calc(100 % 3);
+    padding: 20px;
+}
+
