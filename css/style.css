@@ -6,7 +6,7 @@
 
 }
 
-.conteiner {
+.container {
     width: 80%;
     margin: 0 auto;
     /* debug */
@@ -38,23 +38,22 @@ img {
     height: 100px;
 
 }
+
 /* fine setteggio immagine */
+
 .col {
     display: flex;
     flex-wrap: wrap;
-    
-   
-   
-    
+
 }
 
 .row {
-    /* width: 30%; */
     padding: 20px 30px;
     width: calc(100 % 3);
-    display:flex;
-    flex-direction:column;
-    
+    display: flex;
+    flex-wrap: wrap;
+
+
 }
 
 .background {
@@ -62,10 +61,11 @@ img {
     color: white;
     display: flex;
     width: 30%;
+    margin: 20px;
 
 }
 
-ul{
+ul {
     list-style: none;
 }
 
@@ -74,6 +74,14 @@ ul{
     color: aqua;
 }
 
-.lista{
-   margin: 7px 0px 7px 6px;
+.lista {
+    margin: 7px 0px 7px 6px;
+}
+
+
+@media screen and (min-width:654px) {
+    .container {
+        background-color: lightskyblue;
+    }
+
 }
