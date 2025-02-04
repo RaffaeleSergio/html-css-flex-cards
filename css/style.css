@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 .container {
@@ -36,7 +35,6 @@
 img {
     width: 100px;
     height: 100px;
-
 }
 
 /* fine setteggio immagine */
@@ -45,15 +43,13 @@ img {
     display: flex;
     flex-wrap: wrap;
     width: calc(100 % 3);
-
 }
 
 .row {
     padding: 20px 30px;
-
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: center; 
 }
 
 .background {
@@ -62,11 +58,6 @@ img {
     display: flex;
     width: 350px;
     margin: 20px;
-
-}
-
-ul {
-    list-style: none;
 }
 
 
