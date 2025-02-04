@@ -50,10 +50,9 @@ img {
 
 .row {
     padding: 20px 30px;
-    
+
     display: flex;
     flex-wrap: wrap;
-
 
 }
 
@@ -61,7 +60,7 @@ img {
     background-color: black;
     color: white;
     display: flex;
-    width: 30%;
+    width: 350px;
     margin: 20px;
 
 }
