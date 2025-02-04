@@ -15,17 +15,20 @@
 /* titolo */
 .title-section {
     color: red;
-    font-size: 60px;
+    font-size: 45px;
     text-align: center;
     font-family: "Josefin Sans", serif;
+    padding: 40px;
 }
 
 /* fine titolo */
-
+body{
+    font-family: "Josefin Sans", serif;
+}
 /* paragrafo */
 .test {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 30px;
 }
 
